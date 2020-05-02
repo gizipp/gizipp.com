@@ -1,0 +1,15 @@
+1:
+  url: /assets/images/1.jpg
+  credit: Photo by Ryan Stone on Unsplash
+  width: 640
+  height: 330
+2:
+  url: /assets/images/2.jpg
+  credit: Photo by Bruno Abatti on Unsplash
+  width: 640
+  height: 427
+3:
+  url: /assets/images/3.jpg
+  credit: Photo by Anders Jildén on Unsplash
+  width: 640
+  height: 360

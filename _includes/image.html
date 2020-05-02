@@ -1,0 +1,9 @@
+{% assign image = site.data.images[page.image] %}
+
+{%- if image -%}
+  <amp-img width="{{ image.width }}"
+           height="{{ image.height }}"
+           layout="responsive"
+           src="{{ image.url }}"></amp-img>
+  <p class="credit">{{ image.credit }}</p>
+{%- endif -%}

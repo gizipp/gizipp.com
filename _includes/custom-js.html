@@ -1,0 +1,17 @@
+<amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+  {
+    "vars" : {
+      "gtag_id": "{{ site.analytics_id }}",
+      "config" : {
+        "{{ site.analytics_id }}": { "groups": "default" }
+      }
+    }
+  }
+  </script>
+</amp-analytics>
+
+<amp-install-serviceworker src="/serviceworker.js"
+  data-iframe-src="https://amp.dev/serviceworker.html"
+  layout="nodisplay">
+</amp-install-serviceworker>

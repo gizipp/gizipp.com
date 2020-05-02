@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<main class="content" role="main">
+  <article class="post">
+    <div class="post-meta">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+
+    <section class="post-content">
+      <a name="topofpage"></a>
+      {%- include image.html -%}
+      {{ content }}
+    </section>
+    <footer class="post-footer">
+      <section class="share">
+        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+          Share on Twitter
+        </a>
+      </section>
+    </footer>
+    <div class="bottom-teaser cf">
+      <div class="isLeft">
+        <h5 class="index-headline featured"><span>Recent Posts</span></h5>
+        <section class="recent-posts">
+          {%- for post in site.posts limit:5 -%}
+            <ul>
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+            </ul>
+          {%- endfor -%}
+        </section>
+      </div>
+      <div class="isRight">
+        <h5 class="index-headline featured"><span>Links</span></h5>
+        <footer class="site-footer">
+          <div class="page-links">
+            <ul>
+              <li><a class="page-link" href="{{ site.baseurl }}/">Home</a></li>
+              {%- for my_page in site.pages -%}
+                {%- if my_page.title -%}
+                <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                {%- endif -%}
+              {%- endfor -%}
+              <li><a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe</span></a></li>
+            </ul>
+          </div>
+          <div class="inner">
+            <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{site.name}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </article>
+</main>
