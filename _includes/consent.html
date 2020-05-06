@@ -1,5 +1,64 @@
-<amp-user-notification layout="nodisplay" id="amp-user-notification1" >
-  This site uses cookies to personalize content.
-  <a href="/privacy-policy#cookie">Learn more.</a>
-  <button on="tap:amp-user-notification1.dismiss">I accept</button>
-</amp-user-notification>
+{%- if site.amp -%}
+  <amp-user-notification layout="nodisplay" id="amp-user-notification1" >
+    This site uses cookies to personalize content.
+    <a href="{{ site.baseurl }}/privacy-policy#cookie">Learn more.</a>
+    <button on="tap:amp-user-notification1.dismiss">I accept</button>
+  </amp-user-notification>
+{%- else -%}
+  <div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>
+      By using our website, you agree to our
+      <a href="/privacy-policy#cookie">cookie policy</a>
+      <button onclick="clickBanner();">Agree</button>
+    </p>
+  </div>
+
+  <style media="screen">
+    .cookie-banner {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 5px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: aliceblue;
+      border-top: 1px solid grey;
+      flex-wrap: wrap;
+      word-break: break-word;
+    }
+
+    button {
+      background-color: royalblue;
+      color: white;
+      float: right;
+      margin-right: 30px;
+      font-size: 14px;
+    }
+
+    button:hover {
+      color: white;
+    }
+
+  </style>
+
+  <script type="text/javascript">
+    var banner = document.getElementById("cookie-banner");
+    var shown = localStorage.getItem("cookieConsent-{{ site.url }}");
+
+    window.onload = onLoad();
+
+    function onLoad(){
+      setTimeout(function(){
+        if(shown != "agree"){
+         banner.style.display = "block";
+        }
+      }, 2000);
+    }
+
+    function clickBanner(){
+      localStorage.setItem("cookieConsent-{{ site.url }}","agree");
+      banner.style.display = "none";
+    }
+  </script>
+{%- endif -%}

@@ -31,6 +31,7 @@ plugins:
 exclude:
  - README.md
  - LICENSE
+ - admin
 
 amp: true
 destination: _site/amp

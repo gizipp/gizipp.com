@@ -1,9 +1,16 @@
 <!DOCTYPE html>
+
+{%- if site.amp -%}
 <html ⚡ lang="en">
+{%- else -%}
+<html lang="en">
+{%- endif -%}
   {%- include head.html -%}
   <body>
-    {%- if jekyll.environment == "production" -%}
-      <amp-auto-ads type="adsense" data-ad-client="ca-pub-1905036807193814"></amp-auto-ads>
+    {%- if site.amp -%}
+      {%- if jekyll.environment == "production" -%}
+        <amp-auto-ads type="adsense" data-ad-client="ca-pub-1905036807193814"></amp-auto-ads>
+      {%- endif -%}
     {%- endif -%}
 
     {%- include header.html -%}
@@ -11,7 +18,11 @@
     {{ content }}
 
     {%- if jekyll.environment == "production" -%}
-      {%- include custom-js.html -%}
+      {%- if site.amp -%}
+        {%- include custom-js-amp.html -%}
+      {%- else -%}
+        {%- include custom-js.html -%}
+      {%- endif -%}
     {%- endif -%}
 
     {%- include consent.html -%}
