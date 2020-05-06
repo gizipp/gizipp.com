@@ -17,3 +17,10 @@
     <img src="https://badgen.net/uptime-robot/response/m784717116-bfc2f94d15466a6c3b38482e" alt="(last hour) response">
   </a>
 </center>
+
+
+## References
+
+- https://pawelurbanek.com/
+- https://davidverhasselt.com/
+- https://nbsoftsolutions.com/

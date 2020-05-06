@@ -4,6 +4,7 @@ title: How to Reset Heroku Postgres Database and Why It Keep Fails
 description: Dropping database production is not your usual practice.
 categories: heroku rails
 image: 3
+last_modified_at: 2020-06-04T00:00:00+00:00
 ---
 
 Dropping database production is not your usual practice. Surprisingly, it is not straightforward for it's for reason.
