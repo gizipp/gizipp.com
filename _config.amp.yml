@@ -1,0 +1,36 @@
+# Site settings
+title: Giz
+email: gizipp.gizipp@gmail.com
+description: >
+  Personal site of software engineer Gilang R. Aprianto @GIZIPP.
+logo: "/android-chrome-192x192.png"
+baseurl: "/amp" # the subpath of your site, e.g. /blog
+permalink: /:title
+url: 'https://gizipp.com' # the base hostname & protocol for your site
+paginate:	3 # The number of posts to show per page on your homepage
+
+name: 'Gilang R. Aprianto'
+bio: >
+  FullStack JAMStack entuasiast.
+author_image: "/assets/images/author.jpg"
+
+# Google Analytics
+analytics_id: "UA-29500251-3"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-minifier
+
+exclude:
+ - README.md
+ - LICENSE
+
+amp: true
+destination: _site/amp
