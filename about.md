@@ -9,10 +9,10 @@ Full-stack and JAMstack web development enthusiast. Specializing in Ruby on Rail
 
 Experienced in building scalable APIs for startups and refactoring legacy codebases. Blogging about web development related topics.
 
-Currently, I am building some tools.
+Currently, I am building some [tools](https://tools.gizipp.com).
 
 ***
 
-P.S : I am more active on my Indonesian Blog
+P.S : I am more active in [Bahasa](https://blog.gizipp.com) blog.
 
-P.S.S : I my free time, I am doing street photography.
+P.S.S : In my free time, I am doing [street photography](https://instagram.com/gizipp).

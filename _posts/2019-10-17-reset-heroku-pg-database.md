@@ -59,6 +59,8 @@ Okay, I get it. Let's run `heroku run rake db:drop DISABLE_DATABASE_ENVIRONMENT_
 
 `Database 'des74ei48mf9s6' does not exist`
 
+### Heroku apps do not have permission to drop and create databases.
+
 
 It seems like not all Rake features are supported on Heroku. Heroku apps do not have permission to drop and create databases. It is
 
@@ -69,13 +71,12 @@ Heroku doesn't allow users from using rake db:reset, rake db:drop and rake db:cr
 The following is a list of known limitations: https://devcenter.heroku.com/articles/rake
 
 
-### Heroku apps do not have permission to drop and create databases.
-
-
 ### Make sure it has no process run.
 
 ```heroku restart```
 
 ## Summary
 
-Dropping production database is not your usual perform. Despite of non-straightforward step.
+Dropping production database is not your usual perform. Despite of non-straightforward step, it made to ensure and double check your action.
+
+Are you sure you want destroy production database?
