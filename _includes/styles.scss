@@ -145,10 +145,10 @@ body {
     }
     .post-meta {
       font-size: 14px;
-      color: #b3b3b1;
+      color: darkgrey;
       line-height: 30px;
       a {
-        color: #b3b3b1;
+        color: darkgrey;
         text-decoration: none;
         &:hover {
           text-decoration: underline;
@@ -167,7 +167,7 @@ body {
   margin: 0;
   padding: 16px 0;
   span {
-    color: #b3b3b1;
+    color: darkgrey;
     font-size: $rs / 8 * 5;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -232,7 +232,7 @@ body {
     text-indent: -9999px;
   }
   .post-meta-text {
-    color: #b3b3b1;
+    color: darkgrey;
     letter-spacing: -0.02em;
     font-weight: 400;
     font-style: normal;
