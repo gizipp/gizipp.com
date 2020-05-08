@@ -1,4 +1,6 @@
-# Status
+Personal site of software engineer Gilang R. Aprianto @GIZIPP.
+
+## Status
 
 <center>
   <a href="https://gizipp.com">
@@ -18,6 +20,15 @@
   </a>
 </center>
 
+## Tools
+
+- [GIZ Tools](https://go.gizipp.com/https://tools.gizipp.com/)
+- [metatags.io](https://go.gizipp.com/https://metatags.io/)
+- [favicon.io](https://go.gizipp.com/https://favicon.io/)
+- [gtmetrix.com](https://go.gizipp.com/https://gtmetrix.com/)
+- [Google PageSpeed Insights](https://go.gizipp.com/https://developers.google.com/speed/pagespeed/insights/)
+- [Google Search Console](https://go.gizipp.com/https://search.google.com/search-console/about)
+
 ## References
 
 - [pawelurbanek.com](https://go.gizipp.com/https://pawelurbanek.com/)
@@ -28,5 +39,4 @@
 - [blog.webjeda.com](https://go.gizipp.com/https://blog.webjeda.com/)
 - [mademistakes.com](https://go.gizipp.com/https://mademistakes.com/)
 - [kaklabs.com](https://go.gizipp.com/https://www.kaklabs.com/)
-
-
+- [zeph.co](https://go.gizipp.com/https://zeph.co/)
