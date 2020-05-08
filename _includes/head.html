@@ -31,7 +31,7 @@
   {%- if page.image -%}
     {%- assign image = page.image.url | prepend: site.baseurl | prepend: site.url -%}
   {%- else -%}
-    {%- assign image = "{{ site.baseurl }}/assets/images/1.jpg" | prepend: site.baseurl | prepend: site.url -%}
+    {%- assign image = "/assets/images/1.jpg" | prepend: site.baseurl | prepend: site.url -%}
   {%- endif -%}
 
   <!-- Primary Meta Tags -->
