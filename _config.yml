@@ -1,5 +1,5 @@
 # Site settings
-title: Giz
+title: GIZ
 email: gizipp.gizipp@gmail.com
 description: >
   Personal site of software engineer Gilang R. Aprianto @GIZIPP.
@@ -27,6 +27,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-minifier
+
+include:
+  - '_pages'
 
 exclude:
  - README.md
