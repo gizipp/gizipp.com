@@ -4,7 +4,7 @@ title: How to Reset Heroku Postgres Database and Why It Keep Fails
 description: Dropping database production is not your usual practice.
 categories: heroku rails
 image: 3
-last_modified_at: 2020-06-04T00:00:00+00:00
+last_modified_at: 2020-06-08
 ---
 
 Dropping database production is not your usual practice. Surprisingly, it is not straightforward for it's for reason.
@@ -46,18 +46,27 @@ Heroku is chosen because Heroku simply provide almost-production-running-like ap
 
 ### Rails that prevents data wipeout.
 
-Handy feature : Preventing destructive action on production database. See https://github.com/rails/rails/pull/22967/commits
-
-
 When I run `heroku run rake db:drop` on heroku CLI, It will given this kind error messages.
 
-`ActiveRecord::ProtectedEnvironmentError: You are attempting to run a destructive action against your 'production' database.
+```
+ActiveRecord::ProtectedEnvironmentError: You are attempting to run a destructive action against your 'production' database.
 If you are sure you want to continue, run the same command with the environment variable:
-DISABLE_DATABASE_ENVIRONMENT_CHECK=1`
+DISABLE_DATABASE_ENVIRONMENT_CHECK=1
+```
 
-Okay, I get it. Let's run `heroku run rake db:drop DISABLE_DATABASE_ENVIRONMENT_CHECK=1` and try my luck. And what happens is another errors.
+Okay, I get it. See [Rails commits about prevent destructive action on production databaset][3], it's handy feature :
 
-`Database 'des74ei48mf9s6' does not exist`
+> Preventing destructive action on production database.
+
+Let's run `heroku run rake db:drop DISABLE_DATABASE_ENVIRONMENT_CHECK=1` and try my luck.
+
+And what happens is another errors.
+
+```
+Database 'des74ei48mf9s6' does not exist
+```
+
+Not sure for this one.
 
 ### Heroku apps do not have permission to drop and create databases.
 
@@ -68,7 +77,7 @@ It seems like not all Rake features are supported on Heroku. Heroku apps do not 
 Heroku doesn't allow users from using rake db:reset, rake db:drop and rake db:create command. They only allow heroku pg:reset and rake db:migrate commands.
 
 
-The following is a list of known limitations: https://devcenter.heroku.com/articles/rake
+The following is a list of known limitations see: [Heroku Limitations][2]
 
 
 ### Make sure it has no process run.
@@ -79,4 +88,16 @@ The following is a list of known limitations: https://devcenter.heroku.com/artic
 
 Dropping production database is not your usual perform. Despite of non-straightforward step, it made to ensure and double check your action.
 
-Are you sure you want destroy production database?
+Are you sure you really want destroy production database?
+
+***
+
+###### Reference
+
+- [Gist reset Heroku Postgres database][1]
+- [Heroku Limitations when running rake commands][2]
+- [Rails commits about prevent destructive action on production database][3]
+
+[1]: https://go.gizipp.com/https://gist.github.com/zulhfreelancer/ea140d8ef9292fa9165e  "Gist"
+[2]: https://go.gizipp.com/https://devcenter.heroku.com/articles/rake#limitations       "Heroku"
+[3]: https://go.gizipp.com/https://github.com/rails/rails/pull/22967/commits            "Rails"
