@@ -7,7 +7,7 @@ logo: "/android-chrome-192x192.png"
 baseurl: "/amp" # the subpath of your site, e.g. /blog
 permalink: /:title
 url: 'https://gizipp.com' # the base hostname & protocol for your site
-paginate:	3 # The number of posts to show per page on your homepage
+paginate:	1000 # The number of posts to show per page on your homepage
 
 name: 'Gilang R. Aprianto'
 bio: >
