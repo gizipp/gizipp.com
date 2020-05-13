@@ -42,3 +42,4 @@ Personal site of software engineer Gilang R. Aprianto @GIZIPP.
 - [zeph.co](https://go.gizipp.com/https://zeph.co/)
 - [jiahao.codes](https://go.gizipp.com/https://jiahao.codes/)
 - [daveceddia.com](https://go.gizipp.com/https://daveceddia.com/)
+- [jhankins.dev](https://go.gizipp.com/https://jhankins.dev/)
