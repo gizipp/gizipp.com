@@ -2,6 +2,8 @@
 layout: page
 title: Disclaimer
 permalink: /disclaimer/
+date: 2020-04-28
+last_modified_at: 2020-04-28
 ---
 
 By accessing [gizipp.com](/) you are deemed to have understood and agreed to all terms and conditions disclaimer that apply in the use of this site, as stated below:
@@ -14,5 +16,3 @@ The author does not guarantee all the information presented is accurate and comp
 - The writings on this site are the personal opinions of the author and are not a reflection of the attitude of the institution where the author works.
 
 Thank you for visiting [gizipp.com](/), please come back.
-
-Last modified: April 28, 2020

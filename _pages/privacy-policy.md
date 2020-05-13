@@ -2,6 +2,8 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
+date: 2020-04-28
+last_modified_at: 2020-04-28
 ---
 
 If you need more information or have other questions about the privacy policy at [gizipp.com](/), please contact via [contact](/contact) information.

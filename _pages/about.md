@@ -3,6 +3,8 @@ layout: page
 title: About
 permalink: /about/
 image: 1
+date: 2020-04-28
+last_modified_at: 2020-05-13
 ---
 
 Full-stack and JAMstack web development enthusiast. Specializing in Ruby on Rails, Sinatra, Ruby, Jekyll, website performance and SEO.
