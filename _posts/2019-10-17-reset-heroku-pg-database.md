@@ -4,10 +4,10 @@ title: How to Reset Heroku Postgres Database and Why It Keep Fails
 description: Dropping database production is not your usual practice.
 categories: heroku rails
 image: 3
-last_modified_at: 2020-06-08
+last_modified_at: 2020-05-15
 ---
 
-Dropping database production is not your usual practice. Surprisingly, it is not straightforward for it's for reason.
+Dropping database production is not your usual practice. Surprisingly, it is not straightforward for it's for reason. Learn the hard way.
 
 ## Too Long, Didn't Read
 
@@ -68,21 +68,19 @@ Database 'des74ei48mf9s6' does not exist
 
 Not sure for this one.
 
-### Heroku apps do not have permission to drop and create databases.
+### Make sure it has no process run.
 
+```
+heroku restart
+```
+
+### Heroku apps do not have permission to drop and create databases.
 
 It seems like not all Rake features are supported on Heroku. Heroku apps do not have permission to drop and create databases. It is
 
-
 Heroku doesn't allow users from using rake db:reset, rake db:drop and rake db:create command. They only allow heroku pg:reset and rake db:migrate commands.
 
-
 The following is a list of known limitations see: [Heroku Limitations][2]
-
-
-### Make sure it has no process run.
-
-```heroku restart```
 
 ## Summary
 
