@@ -44,3 +44,4 @@ Personal site of software engineer Gilang R. Aprianto @GIZIPP.
 - [daveceddia.com](https://go.gizipp.com/https://daveceddia.com/)
 - [jhankins.dev](https://go.gizipp.com/https://jhankins.dev/)
 - [vsupalov.com](https://go.gizipp.com/https://vsupalov.com/)
+- [adamdelong.com](https://go.gizipp.com/https://adamdelong.com/)
