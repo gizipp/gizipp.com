@@ -6,10 +6,10 @@ date: 2020-04-28
 last_modified_at: 2020-06-13
 ---
 
-List of my portfolio, sorted by recent works I've working on [personally](#personal) and [professionally](#professional), or by main technology used :
+List of portfolio sorted by recent works I've working on [personally](#personal) and [professionally](#professional), or by main technology used :
 
 * [Ruby (on Rails)](#ruby-on-rails-projects)
-* [JAMStack](#jamstacks-project)
+* [JAMStack](#jamstack-projects)
 
 ***
 
@@ -58,6 +58,22 @@ List of my portfolio, sorted by recent works I've working on [personally](#perso
 * GIZ! VS (2020)
 * GIZ! GO (2020)
 
+***
+
+Detailed of each project I've working with Ruby on Rails.
+
+### Repairnet.io
+
+Technology used :
+- Ruby 2.7.x
+- Rails 6.x
+
+### Avaderma.id
+
+Technology used :
+- Ruby 2.7.x
+- Rails 6.x
+
 ## JAMStack Projects
 
 * GIZ! Blog
@@ -65,16 +81,16 @@ List of my portfolio, sorted by recent works I've working on [personally](#perso
 
 ***
 
-Detailed of each project I've working on.
+Detailed of each project I've working with JAMStack.
 
-## Repairnet.io
-
-Technology used :
-- Ruby 2.7.x
-- Rails 6.x
-
-## Avaderma.id
+### GIZ! Blog
 
 Technology used :
 - Ruby 2.7.x
-- Rails 6.x
+- Jekyll 4.0.0
+
+### Personal Site of Gilang Aprianto
+
+Technology used :
+- Ruby 2.7.x
+- Jekyll 4.0.0
