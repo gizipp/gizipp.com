@@ -45,3 +45,4 @@ Personal site of software engineer Gilang R. Aprianto @GIZIPP.
 - [jhankins.dev](https://go.gizipp.com/https://jhankins.dev/)
 - [vsupalov.com](https://go.gizipp.com/https://vsupalov.com/)
 - [adamdelong.com](https://go.gizipp.com/https://adamdelong.com/)
+- [yogasukma.web.id](https://go.gizipp.com/https://yogasukma.web.id/)
