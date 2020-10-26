@@ -108,6 +108,10 @@ Technology used :
 - Rails 5.x
 - Sidekiq
 
+#### What I contributed to :
+- Sync Enhancement from external source (CIVD)
+- Documentation API and technical documentation; support and assist .NET developer on rewrite process
+
 ### Ragamindo
 
 Technology used :
@@ -119,6 +123,18 @@ Technology used :
 - Bootstrapping marketplace back-end services.
 - Design and develop API (Rails based) for the mobile app.
 - Manage small teams, perform code review and pull requests.
+
+### Karir.com
+
+![Karir.com](/assets/portfolio/karir.com/karir.com-thumb.png)
+
+Technology used :
+- Ruby 2.2.x
+- Rails 4.2.x
+
+#### What I do :
+
+- Develop boring feature :)
 
 ### PMS
 
