@@ -43,22 +43,19 @@ List of portfolio sorted by recent works I've working on [personally](#personal)
 ## Ruby (on Rails) Projects
 
 * [Answerwise.io](#answerwiseio) (2020)
-* [E-Partners](#epartners) (2020)
+* [E-Partners](#e-partners) (2020)
 * [Repairnet.io](#repairnetio) (2020)
 * [Avaderma.id](#avadermaid) (2020)
-* GIZ! VS (2020)
-* GIZ! GO (2020)
-* [Ragamindo (2019)](#ragamindo)
-* BagiBagi Logistic (2019)
-* Payroll from Karir (2018)
-* Erika from Karir (2018)
-* Karir.com (2017)
+* [Ragamindo](#ragamindo) (2019)
+* [BagiBagi Logistic](#bagibagi-logistic) (2019)
+* [Erika](#erika) (2018)
+* [Karir.com](#karircom) (2017)
 * [Luxelet](#luxelet) (2016)
 * [Villalet](#villalet) (2016)
-* GIBIPP (2015)
+* [GIBIPP](#gizipp) (2015)
 * [CommercialLoop](#commercialloop) (2015)
 * [ZooProperty CRM](#zooproperty) (2014)
-* PMS (2014)
+* [PMS](#pms) (2014)
 
 ***
 
@@ -87,10 +84,8 @@ Detailed of each project I've working with Ruby on Rails.
 - AWS and Capistrano
 
 #### What I contributed to :
-- Shipping into production (Rails-based): architecture, development & deployment
-- Migrated from Heroku to AWS Africa (Cape Town) Region; setup CI/CD and orchestrated automated deployment using Capistrano
+- Migrated from Heroku to AWS Africa (Cape Town) Region; setup CI/CD and orchestrated semi-automated deployment using Capistrano
 - Composed Dockerize app for development purpose/setup local workspace and introduced to other developers
-
 
 ### Avaderma.id
 
@@ -102,19 +97,41 @@ Technology used :
 - ActiveAdmin
 
 What I contributed to :
-- From idea to production
-- Bootstraping API
+- Bootstraping Rails API to support Mobile App from idea to production
 
-### E-Partners JOB Tomori
+### E-Partners
+
+![E-Partners JOB Tomori](/assets/portfolio/e-partners/epartners-job-tomori-thumb.png)
+
 Technology used :
 - JRuby 1.9.x
 - Rails 5.x
 - Sidekiq
 
+### Ragamindo
+
+Technology used :
+- Ruby 2.5.x
+- Rails 5.2.x
+
 #### What I contributed to :
-- Sync Enhancement from external source (CIVD)
-- Assist rewrite and
-- Documentation API and technical documentation; support and assist rewrite developer
+
+- Bootstrapping marketplace back-end services.
+- Design and develop API (Rails based) for the mobile app.
+- Manage small teams, perform code review and pull requests.
+
+### PMS
+
+![PMS](/assets/portfolio/pms/pms-thumb.png)
+
+Technology used :
+- Ruby 2.5.x
+- Rails 6.x
+
+#### What I do :
+
+- Getting familiar with Ruby on Rails stacks by develop simple project management system and deploy to Heroku
+- Experiment in upgrade Rails 4.x into 6.x
 
 ## JAMStack Projects
 
