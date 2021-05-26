@@ -13,9 +13,9 @@ Also available in [.PDF](/resume.pdf) and [.TXT](/resume.txt) format.
 ## Gilang R. Aprianto
 
 * Jakarta, Indonesia
-* +62 8 19191 09090
+* +62 [REDACTED]
 * [gizipp.com](/)
-* [gizipp.gizipp@gmail.com](gizipp.gizipp@gmail.com)
+* [hello@gizipp.com](mailto:hello@gizipp.com)
 * [linkedin.com/in/gizipp](https://linkedin.com/in/gizipp)
 
 > Web developer with expertise in Ruby (on Rails) stacks for more than 5 years in full-stack or JAMstack
@@ -25,7 +25,7 @@ Also available in [.PDF](/resume.pdf) and [.TXT](/resume.txt) format.
 ### Skills
 
 * *Proficient:* Ruby, Ruby on Rails, Sinatra, Jekyll, Slim, Git, Unix, Heroku
-* *Familiar:* RSpec, React, SCSS, Redis, ElasticSearch, PostgreSQL, CI/CD, Jenkins, AWS, Docker, Ansible
+* *Familiar:* RSpec, React, SCSS, Redis, ElasticSearch, PostgreSQL, CI/CD, Jenkins, AWS, Docker, Ansible, Elixir, Phoenix
 
 
 ### Experience
