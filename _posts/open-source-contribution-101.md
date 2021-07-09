@@ -3,7 +3,8 @@ layout: post
 title: "How I Contribute to Open Source 101 : Even Without Excellent Skill and Ideas"
 description: Creating static site with Jekyll
 categories: jekyll web-development
-image: 2
+image:
+status: draft
 ---
 
 Do you feel intimidate to jumped in when looking huge community open source project like Rails?

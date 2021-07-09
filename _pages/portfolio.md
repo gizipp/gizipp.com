@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Porfolio
+title: Portfolio
 permalink: /portfolio/
 date: 2020-04-28
-last_modified_at: 2020-06-13
+last_modified_at: 2020-10-26
 ---
 
 List of portfolio sorted by recent works I've working on [personally](#personal) and [professionally](#professional), or by main technology used :
@@ -43,12 +43,12 @@ List of portfolio sorted by recent works I've working on [personally](#personal)
 ## Ruby (on Rails) Projects
 
 * [Answerwise.io](#answerwiseio) (2020)
-* [E-Partners](#e-partners) (2020)
 * [Repairnet.io](#repairnetio) (2020)
 * [Avaderma.id](#avadermaid) (2020)
+* [E-Partners](#e-partners) (2020)
 * [Ragamindo](#ragamindo) (2019)
 * [BagiBagi Logistic](#bagibagi-logistic) (2019)
-* [Erika](#erika) (2018)
+* [ERIKA](#erika) (2018)
 * [Karir.com](#karircom) (2017)
 * [Luxelet](#luxelet) (2016)
 * [Villalet](#villalet) (2016)
@@ -62,6 +62,8 @@ List of portfolio sorted by recent works I've working on [personally](#personal)
 Detailed of each project I've working with Ruby on Rails.
 
 ### Answerwise.io
+
+Customer services powered by AI
 
 ![Answerwise.io](/assets/portfolio/answerwise.io/answerwise-io-thumb.png)
 
@@ -89,6 +91,8 @@ Detailed of each project I've working with Ruby on Rails.
 
 ### Avaderma.id
 
+Booking app
+
 ![Avaderma.io](/assets/portfolio/avaderma.id/avaderma-id-thumb.png)
 
 Technology used :
@@ -100,6 +104,8 @@ What I contributed to :
 - Bootstraping Rails API to support Mobile App from idea to production
 
 ### E-Partners
+
+Vendor management.
 
 ![E-Partners JOB Tomori](/assets/portfolio/e-partners/epartners-job-tomori-thumb.png)
 
@@ -114,6 +120,8 @@ Technology used :
 
 ### Ragamindo
 
+Local marketplace.
+
 Technology used :
 - Ruby 2.5.x
 - Rails 5.2.x
@@ -124,7 +132,35 @@ Technology used :
 - Design and develop API (Rails based) for the mobile app.
 - Manage small teams, perform code review and pull requests.
 
+### BagiBagi Logistic
+
+Technology used :
+- Ruby 2.5.x
+- Rails 5.2.x
+
+#### What I contributed to :
+
+- Rewrite logistics and supply chain web applications into Ruby on Rails stacks + unit test.
+
+### ERIKA
+
+E-recruitment system powered by Karir.com
+
+![ERIKA](/assets/portfolio/erika/erika-thumb.png)
+
+Technology used :
+- Ruby 2.3.x
+- Rails 5.x
+- RabbitMQ
+
+#### What I contributed to :
+
+- Bootstraping E-Recruitment web applications
+- Work on interconnection sync system within main application
+
 ### Karir.com
+
+Indonesia’s first job portal, since 1999.
 
 ![Karir.com](/assets/portfolio/karir.com/karir.com-thumb.png)
 
@@ -138,11 +174,13 @@ Technology used :
 
 ### PMS
 
+Just another project management - an experimental project.
+
 ![PMS](/assets/portfolio/pms/pms-thumb.png)
 
 Technology used :
 - Ruby 2.5.x
-- Rails 6.x
+- Rails 4.x and 6.x
 
 #### What I do :
 
@@ -153,6 +191,7 @@ Technology used :
 
 * GIZ! Blog
 * Personal Site of Gilang Aprianto
+* Resep Pemula Microsite
 
 ***
 
