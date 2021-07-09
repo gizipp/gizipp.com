@@ -48,7 +48,15 @@ hash = {
 hash.map { |key, value| [key, value.to_sym] }.to_h
 ```
 
-### nil?
+### Uniq
+
+```rb
+[1, 1, 1, 1, 2, 3].uniq # => [1, 2, 3]
+```
+
+Use `uniq!` to change array.
+
+### nil? and friends
 
 #### nil?
 
@@ -96,4 +104,16 @@ Negatives of `blank?`
 
 ```rb
 [*1..100].sample
+```
+
+#### Meta Programming Define Methods
+
+```rb
+class MyClass
+  1.upto(1000) do |n|
+    define_method :"method_#{n}" do
+      puts "I am method #{n}!"
+    end
+  end
+end
 ```

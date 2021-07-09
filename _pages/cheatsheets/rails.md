@@ -6,6 +6,16 @@ date: 2021-07-07
 last_modified_at: 2021-07-07
 ---
 
+###
+
+```sh
+rails new myapp --database=postgresql
+```
+
+```sh
+rails new myapp -T # without minitest
+```
+
 ### Rails Model
 
 ```rb
@@ -42,6 +52,34 @@ describe 'delegations' do
   it { should delegate_method(:name).to(:category).with_prefix.allow_nil }
 end
 
+```
+
+### Rails Enum
+
+```rb
+enum role: {
+ user: 0,
+ admin: 1,
+ other: 99
+}
+
+```
+
+### Rails Validations
+
+```rb
+validates :name, presence: true
+validates :terms_of_service, acceptance: true
+validates :terms_of_service, acceptance: { message: 'must be abided' }
+validates :size, inclusion: { in: %w(small medium large),
+  message: "%{value} is not a valid size" }
+validates :name, length: { minimum: 2 }
+validates :bio, length: { maximum: 500 }
+validates :password, length: { in: 6..20 }
+validates :registration_number, length: { is: 6 }
+validates :points, numericality: true
+validates :games_played, numericality: { only_integer: true }
+validates :email, uniqueness: true
 ```
 
 ### Custom Validations
