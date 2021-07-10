@@ -13,3 +13,4 @@ Mr. Hawking certainly true, so I create this cheatsheets. :)
 
 - [Ruby](/cheatsheets/ruby)
 - [Rails](/cheatsheets/rails)
+- [RSpec](/cheatsheets/rspec)

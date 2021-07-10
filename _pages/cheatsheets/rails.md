@@ -3,7 +3,7 @@ layout: page
 title: Ruby on Rails Cheatsheets
 permalink: /cheatsheets/rails
 date: 2021-07-07
-last_modified_at: 2021-07-07
+last_modified_at: 2021-07-10
 ---
 
 ### Rails
