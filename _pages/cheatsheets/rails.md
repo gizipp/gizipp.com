@@ -6,14 +6,18 @@ date: 2021-07-07
 last_modified_at: 2021-07-07
 ---
 
-###
+### Rails
+
+Generate a new Rails app w/ Postgres support
 
 ```sh
 rails new myapp --database=postgresql
 ```
 
+Without minitest
+
 ```sh
-rails new myapp -T # without minitest
+rails new myapp -T
 ```
 
 ### Rails Model
@@ -113,24 +117,6 @@ Testing custom validation with error message.
          )
      end
    end
-```
-
-Generate a new Rails app w/ Postgres support
-
-```
-$ rails new my_app --database=postgresql
-```
-
-Initialize the database
-
-```
-$ rake db:create
-```
-
-Start the Rails server
-
-```
-$ rails s
 ```
 
 ### Routes
@@ -452,22 +438,6 @@ Create a form with a custom action and method
 
 Reference: [http://guides.rubyonrails.org/form_helpers.html](http://guides.rubyonrails.org/form_helpers.html)
 
-Generate JWT token
-
-```rb
-def access_token
-  secret = Rails.application.credentials.jwt[:secret_key]
-  method = Rails.application.credentials.jwt[:algorithm]
-  payload = {
-    data: {email: email, full_name: full_name},
-    iat: Time.now.to_i,
-    sub: Rails.application.credentials.jwt[:subject]
-  }
-
-  JWT.encode(payload, secret, method)
-end
-```
-
 Upload file ActiveStorage (via console or rake tasks)
 
 ```rb
@@ -487,7 +457,7 @@ Faker::Barcode.upc_e_with_composite_symbology.gsub('|','-')
 
 ## JWT
 
-Generate JWT access token
+Encode JWT / generate access token
 
 ```rb
 def access_token
@@ -501,6 +471,11 @@ def access_token
 
   JWT.encode(payload, secret, method)
 end
+```
+
+Decode JWT
+```rb
+JWT.decode(token, secret, true, { algorithm: method })[0]
 ```
 
 ## Shoulda Matchers

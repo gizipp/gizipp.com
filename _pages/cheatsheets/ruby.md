@@ -117,3 +117,14 @@ class MyClass
   end
 end
 ```
+
+####
+
+```rb
+def get_bearer_token
+  pattern = /^Bearer/
+  header = request.authorization
+  header = request.env['Authorization'] if header.blank?
+  header.gsub(pattern, '').strip if header && header.match(pattern)
+end
+```
