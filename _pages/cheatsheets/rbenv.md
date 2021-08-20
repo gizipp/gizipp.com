@@ -31,12 +31,10 @@ rbenv install --verbose 3.0.2
 rbenv install --list
 ```
 
-### Pull if ruby version not exist (using ruby build)
+### Pull if ruby version not exist (using ruby build plugins)
 
 ```sh
 git -C "$(rbenv root)"/plugins/ruby-build pull
 ```
 
-Can't pull? Install ruby build first https://github.com/rbenv/ruby-build
-
-
+Can't pull? [Install ruby-build first!](https://github.com/rbenv/ruby-build) as plugin.

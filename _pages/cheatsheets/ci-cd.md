@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CI/CI Pipeline Cheatsheets
-permalink: /cheatsheets/ci-cd-pipeline
+title: CI/CD Cheatsheets
+permalink: /cheatsheets/ci-cd
 date: 2021-08-04
 last_modified_at: 2021-08-04
 ---

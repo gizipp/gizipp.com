@@ -6,6 +6,11 @@
              and my_page.title != "Ruby Cheatsheets"
              and my_page.title != "Ruby on Rails Cheatsheets"
              and my_page.title != "RSpec Cheatsheets"
+             and my_page.title != "Rbenv"
+             and my_page.title != "Errors"
+             and my_page.title != "Rbenv Cheatsheets"
+             and my_page.title != "Capistrano Errors"
+             and my_page.title != "CI/CD Cheatsheets"
       -%}
       <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> •
       {%- endif -%}
