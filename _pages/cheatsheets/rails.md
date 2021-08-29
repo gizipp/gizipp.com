@@ -493,3 +493,14 @@ describe UserProfile, type: :model do
   it { should validate_presence_of(:name) }
 end
 ```
+
+## Rails 6.0.1 Time Zone
+
+```rb
+config.active_record.default_timezone = :local
+config.time_zone = 'Eastern Time (US & Canada)'
+```
+
+Check timezone list `rake -D time`
+
+[ref](https://stackoverflow.com/a/59085292/6469234)
