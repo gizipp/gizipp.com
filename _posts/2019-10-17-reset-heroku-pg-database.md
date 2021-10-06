@@ -4,7 +4,7 @@ title: How to Reset Heroku Postgres Database and Why It Keep Fails
 description: Dropping database production is not your usual practice.
 categories: heroku rails
 image: 3
-last_modified_at: 2020-05-15
+last_modified_at: 2021-10-07
 ---
 
 Dropping database production is not your usual practice. Surprisingly, it is not straightforward for it's for reason. Learn the hard way.
@@ -19,7 +19,7 @@ heroku restart && heroku pg:reset DATABASE && heroku run rake db:migrate
 
 Or
 
-- Step 1: `heroku restart`
+- Step 1: `heroku restart` (make sure it has no process run)
 - Step 2: `heroku pg:reset DATABASE` (no need to change the `DATABASE`)
 - Step 3: `heroku run rake db:migrate`
 - Step 4: `heroku run rake db:seed` (if you have seed)
@@ -31,18 +31,34 @@ Or
 I have Rails app, so it should be as simple as...
 
 ```bash
+cd my_rails_app && heroku pg:reset DATABASE
+```
+
+```bash
 rake db:reset
+```
+
+But, the reality is a little harder.
+
+I have a Rails 4 app, using Postgres 9.4, Heroku Cedar stack. There are two databases: one is the production database, another one is for staging. Generally, this is a good practice to have a staging environment that is equivalent to production. So that I should have a staging database on Heroku.
+
+When pushing to staging, I want to reset the database to ensure it's exactly the same as production. So I run the command above. It should be like:
+
+```bash
+
+heroku pg:reset DATABASE
+
 ```
 
 But it just not works.
 
-It certainly works in local. It not in local development. It is live on production environment, even only staging server.
+It certainly works locally. It is not in local development. It is live in the production environment, even only the staging server.
 
 ### The story behind of reset
 
-I have staging server (running in production environment) and it was simply deployed in Heroku. No reason behind it. It was quite easy to deploy and I also Heroku provide almost-production-running-like app without hassle with as simple as command `heroku create`
+I have a staging server (running in a production environment) and it was simply deployed in Heroku. No reason behind it. It was quite easy to deploy and I also Heroku provide almost-production-running-like app without hassle with as simple as command `heroku create`
 
-Heroku is chosen because Heroku simply provide almost-production-running-like app without hassle. One day I need to reset the database because Heroku only provide 10.000 free rows.
+Heroku is chosen because Heroku simply provides an almost-production-running-like app without hassle. One day I need to reset the database because Heroku only provides 10.000 free rows.
 
 ### Rails that prevents data wipeout.
 
@@ -76,7 +92,7 @@ heroku restart
 
 ### Heroku apps do not have permission to drop and create databases.
 
-It seems like not all Rake features are supported on Heroku. Heroku apps do not have permission to drop and create databases. It is
+It seems like not all Rake features are supported on Heroku. Heroku apps do not have permission to drop and create databases.
 
 Heroku doesn't allow users from using rake db:reset, rake db:drop and rake db:create command. They only allow heroku pg:reset and rake db:migrate commands.
 
@@ -84,9 +100,11 @@ The following is a list of known limitations see: [Heroku Limitations][2]
 
 ## Summary
 
-Dropping production database is not your usual perform. Despite of non-straightforward step, it made to ensure and double check your action.
+Dropping the production database is not your usual performance. Despite the non-straightforward step, it is made to ensure and double-check your action.
 
-Are you sure you really want destroy production database?
+Are you sure you really want to destroy the production database?
+
+Thanks for reading.
 
 ***
 
