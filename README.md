@@ -46,3 +46,11 @@ Personal site of software engineer Gilang R. Aprianto @GIZIPP.
 - [vsupalov.com](https://go.gizipp.com/https://vsupalov.com/)
 - [adamdelong.com](https://go.gizipp.com/https://adamdelong.com/)
 - [yogasukma.web.id](https://go.gizipp.com/https://yogasukma.web.id/)
+
+## Build for production
+
+```
+jekyll build && jekyll build --config _config.amp.yml
+```
+
+This also generate amp pages.

@@ -65,7 +65,7 @@ Detailed of each project I've working with Ruby on Rails.
 
 Customer services powered by AI
 
-![Answerwise.io](/assets/portfolio/answerwise.io/answerwise-io-thumb.png)
+{% include img.html img="/assets/portfolio/answerwise.io/answerwise-io-thumb.png" caption="Answerwise.io" %}
 
 #### Technology used :
 - Ruby 2.4.x
@@ -78,7 +78,7 @@ Customer services powered by AI
 
 ### Repairnet.io
 
-![Repairnet.io](/assets/portfolio/repairnet.io/repairnet-io-thumb.png)
+{% include img.html img="/assets/portfolio/repairnet.io/repairnet-io-thumb.png" caption="Repairnet.io" %}
 
 #### Technology used :
 - Ruby 2.7.x
@@ -93,7 +93,7 @@ Customer services powered by AI
 
 Booking app
 
-![Avaderma.io](/assets/portfolio/avaderma.id/avaderma-id-thumb.png)
+{% include img.html img="/assets/portfolio/avaderma.id/avaderma-id-thumb.png" caption="Avaderma.io" %}
 
 Technology used :
 - Ruby 2.7.x
@@ -107,7 +107,7 @@ What I contributed to :
 
 Vendor management.
 
-![E-Partners JOB Tomori](/assets/portfolio/e-partners/epartners-job-tomori-thumb.png)
+{% include img.html img="/assets/portfolio/e-partners/epartners-job-tomori-thumb.png" caption="E-Partners JOB Tomori" %}
 
 Technology used :
 - JRuby 1.9.x
@@ -146,7 +146,7 @@ Technology used :
 
 E-recruitment system powered by Karir.com
 
-![ERIKA](/assets/portfolio/erika/erika-thumb.png)
+{% include img.html img="/assets/portfolio/erika/erika-thumb.png" caption="ERIKA" %}
 
 Technology used :
 - Ruby 2.3.x
@@ -162,7 +162,7 @@ Technology used :
 
 Indonesia’s first job portal, since 1999.
 
-![Karir.com](/assets/portfolio/karir.com/karir.com-thumb.png)
+{% include img.html img="/assets/portfolio/karir.com/karir.com-thumb.png" caption="Karir.com" %}
 
 Technology used :
 - Ruby 2.2.x
@@ -176,7 +176,7 @@ Technology used :
 
 Just another project management - an experimental project.
 
-![PMS](/assets/portfolio/pms/pms-thumb.png)
+{% include img.html img="/assets/portfolio/pms/pms-thumb.png" caption="PMS" %}
 
 Technology used :
 - Ruby 2.5.x

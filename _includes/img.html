@@ -1,0 +1,9 @@
+{%- if site.amp -%}
+  <amp-img width="640"
+           height="427"
+           layout="responsive"
+           src="{{ include.img }}"></amp-img>
+{%- else -%}
+tesf
+  <img layout="responsive" src="{{ include.img }}" class="responsive">{{ include.caption }}</img>
+{%- endif -%}
