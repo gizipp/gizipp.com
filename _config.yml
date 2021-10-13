@@ -9,7 +9,7 @@ permalink: /:title
 url: 'https://gizipp.com' # the base hostname & protocol for your site
 paginate:	1000 # The number of posts to show per page on your homepage
 
-name: 'Gilang R. Aprianto'
+name: 'Gilang'
 bio: >
   FullStack JAMStack entuasiast.
 author_image: "/assets/images/author.jpg"
