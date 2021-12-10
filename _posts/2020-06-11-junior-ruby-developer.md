@@ -8,17 +8,20 @@ categories:
   - story
 image: 2
 last_modified_at: 2020-06-04T00:00:00+00:00
+last_modified_at: 2021-12-10
 ---
 
-The story of how I became a Junior Ruby Developer, in one month.
+The story of how I became a Junior Ruby Developer, in one month. At last.
 
-This is not a story about became ninjas in Sofware Engineering and Web development e.g .
+Unfortunatelly, this is not a story about became ninjas in Sofware Engineering and Web development e.g became expert in Ruby or spesific programming languange.
 
-This is just an ordinary story, as human, and how we coincidentally tied with some we passionate about : Ruby.
+This is just an ordinary story, as human, and how we coincidentally tied with some we passionate about, as for me : Ruby.
 
-I considered lucky to have habits logging my daily life and activities. It is easier to gauge how I achieve something.
+***
 
-Since I have logged my early days with Rails on "[20 Days of Rails](https://blog.gizipp.com/20-days-of-rails)" (sorry, It's written in Bahasa), I give a thought how I became a Ruby developer as now, in my first month. And why I choose this path.
+I considered lucky to have habits logging my daily life and activities. It is easier to gauge how and why I achieve something.
+
+I have logged my early days with Ruby on Rails on "[20 Days of Rails](https://blog.gizipp.com/20-days-of-rails)" (sorry, It's written in Bahasa), and when I read it, it give me a lot a thought how I became a Ruby developer as now, in my first month. And why I choose this path.
 
 Here's the folk!
 
@@ -50,6 +53,12 @@ I was failed test to became WordPress Developer.
 
 Yes!
 
-I was applying for WordPress Developer position! Not PHP or even Ruby. Because I don't have confident and skillset on PHP or even Ruby.
+But wait, did I apply as WordPress Developer rather than Ruby Developer?
+
+Yeah,  I was applying for WordPress Developer position! Not PHP or even Ruby. Because I don't have confident and skillset on PHP or even Ruby. My skil on PHP WordPress is only around 1 year and not expert, but I think it still good choises rather than Ruby Developer. 
+
+Despite being rejected as WordPress Developer...
 
 But, how come I became Ruby Developer later?
+
+*to be continued*
