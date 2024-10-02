@@ -7,8 +7,8 @@ categories:
   - trend
   - software engineering
 image: 2
-last_modified_at: 2020-06-04T00:00:00+00:00
-last_modified_at: 2021-12-10
+last_modified_at: 2024-08-09T00:00:00+00:00
+last_modified_at: 2024-08-09
 ---
 
 The hype of AI replacing Human Software Engineer, even considered making decision for us?
